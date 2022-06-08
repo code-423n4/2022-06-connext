@@ -8,8 +8,6 @@
 - Starts June 8, 2022 20:00 UTC
 - Ends June 13, 2022 19:59 UTC
 
-This repo will be made public before the start of the contest. (C4 delete this line when made public)
-
 ---
 
 ## Documentation
