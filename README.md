@@ -12,7 +12,7 @@ This repo will be made public before the start of the contest. (C4 delete this l
 
 ---
 
-## Documentantation
+## Documentation
 
 The most up-to-date contest information, protocol documentation, and other resources can be found [here](https://www.notion.so/connext/Contracts-Overview-eaf876ef16f3499d8cda8d131ba5199a).
 
