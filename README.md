@@ -1,12 +1,12 @@
 
 # Connext Amarok contest details
-- $71,250 USDC main award pot
-- $3,750 USDC gas optimization award pot
+- $109,250 USDC main award pot
+- $5,750 USDC gas optimization award pot
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - Submit findings [using the C4 form](https://code4rena.com/contests/2022-06-connext-amarok-contest/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
 - Starts June 8, 2022 20:00 UTC
-- Ends June 13, 2022 19:59 UTC
+- Ends June 19, 2022 19:59 UTC
 
 ---
 
