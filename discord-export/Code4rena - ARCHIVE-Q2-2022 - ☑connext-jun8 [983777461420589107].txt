@@ -1,0 +1,419 @@
+==============================================================
+Guild: Code4rena
+Channel: ARCHIVE-Q2-2022 / ☑connext-jun8
+==============================================================
+
+[06/07/2022 5:44 PM] kartoonjoy
+👋 Hello and welcome to the contest channel for the $75K USDC **Connext Amarok** contest!
+
+📆 Contest opens 06/08/2022 8:00 PM (20:00 UTC) and runs through 06/19/2022 7:59 PM (19:59 UTC) (10 days).
+
+Please give a warm welcome to the Connext team, particularly @layne | MST, who will be available for questions either here in the channel or via DM.
+
+We'll be posting relevant links, documentation, etc. here, so if you intend to participate in this contest, consider enabling notifications for this channel. 🐺 ⏰
+
+Contest Page: https://code4rena.com/contests/2022-06-connext-amarok-contest
+
+{Embed}
+https://code4rena.com/contests/2022-06-connext-amarok-contest
+Code4rena Connext Amarok contest
+$115,000 USDC
+8 June 2022—19 June 2022
+Code4rena - ARCHIVE-Q2-2022 - ☑connext-jun8 [983777461420589107].txt_Files/cc818575-dbf3-41ce-986f-50d92f32df39-1CA93
+
+{Reactions}
+🎉 (6) 
+
+[06/08/2022 8:14 PM] hake_stake
+Just checking: Contest is running for 5 days only? Usually 75k payout is for contest running for 7 days
+
+
+[06/08/2022 8:59 PM] kartoonjoy
+Yep, it's confirmed to be a 5 day'r so add it to your calendar now 😀
+
+{Reactions}
+💯 🗓️ (3) 
+
+[06/09/2022 2:59 AM] un_for_given
+@layne | MST walkthrough link is not working: https://youtu.be/zZKO1retoIY
+
+
+[06/09/2022 3:27 AM] layne7534
+Thank you for the heads up! Looks like I’ll have to reupload in 2 parts 🙂
+
+{Reactions}
+👍 
+
+[06/09/2022 1:02 PM] blockdev
+hey! are the videos up somewhere?
+
+
+[06/09/2022 2:42 PM] un_for_given
+@layne | MST Don't mention it. They should put it back. 😉
+
+
+[06/09/2022 5:05 PM] luksgrin
+anyone else having trouble building the project?
+
+
+[06/09/2022 5:05 PM] luksgrin
+```yarn``` ends up crashing
+
+
+[06/09/2022 7:39 PM] layne7534
+should be fixed!
+
+
+[06/09/2022 7:39 PM] layne7534
+the contest repo doesnt build -- i just put in minimal source files
+
+
+[06/09/2022 9:57 PM] masterchief#9196
+hey @layne | MST ! I have a quick question, can I dm?
+
+
+[06/09/2022 9:59 PM] layne7534
+Yep!
+
+
+[06/10/2022 7:51 AM] cryptphi
+it's failing because of a missing file tsconfig.base.json, was able to find it here https://github.com/connext/nxtp/blob/main/config/tsconfig.base.json Create a tsconfig.base.json file in the root folder and copy the content in the link into it and the yarn build will run successfully
+
+{Embed}
+https://github.com/connext/nxtp/blob/main/config/tsconfig.base.json
+nxtp/tsconfig.base.json at main · connext/nxtp
+Nxtp is a lightweight protocol for generalized crosschain transfers. - nxtp/tsconfig.base.json at main · connext/nxtp
+Code4rena - ARCHIVE-Q2-2022 - ☑connext-jun8 [983777461420589107].txt_Files/nxtp-DBCE0
+
+
+[06/10/2022 12:09 PM] itsmetechjay
+Per the message from @🧦 sockdrawer | C4: https://discord.com/channels/810916927919620096/810936719003090974/984723334786867321
+
+📆 The contest has been updated to run 11 days through June 19, 2022 7:59 PM, with a prize pool of $115K.
+
+{Reactions}
+C4Keycap (5) 
+
+[06/10/2022 12:27 PM] sockdrawermoney
+Thx a million @Jay | C4; I knew you’d probably swoop in and help me get the details straight on this one before I was even up and about
+
+{Reactions}
+hi5 (2) 
+
+[06/11/2022 11:27 AM] nine_december
+Hello! @layne | MST Sent you a DM. Thanks in advance!
+
+{Reactions}
+👍 
+
+[06/11/2022 6:53 PM] luksgrin
+Worked! Thnx!
+
+{Reactions}
+👋 (2) 
+
+[06/11/2022 10:32 PM] cryptphi
+you're welcome
+
+
+[06/14/2022 1:49 AM] cloudjunky
+You can also get the majority of tests running using foundry/forge after installing forge-std/ds-test/oz-upgradeable.
+
+
+[06/14/2022 4:39 AM] 100proof
+@layne | MST Have the two videos been re-uploaded yet?
+
+
+[06/14/2022 4:43 AM] pierrickgt
+You're talking about this one?
+https://www.youtube.com/watch?v=AVrFVE8o9X4
+
+
+[06/14/2022 4:44 AM] 100proof
+Yes, I guess I must be 🙂 Thanks!
+
+
+[06/14/2022 10:57 AM] abhinavmir#1898
+Needed a quick help. This error - `Message:  checksum not available: "0.8.14"` - any resolutions for this? I'm using solidity 0.8.14.
+
+
+[06/14/2022 4:33 PM] layne7534
+yes!
+
+
+[06/14/2022 9:27 PM] cryptphi
+what action did you perform for the thrown error? there's not much context to the help you're requesting
+
+
+[06/14/2022 9:28 PM] abhinavmir#1898
+think it was `yarn test:forge` - edit: yes it was this command
+
+
+[06/14/2022 9:30 PM] cryptphi
+ah, i didn't run test...maybe someone that's run that can help you out..... however 2 things might occur...either the ethereum address is wrong (maybe missing a character or an additional character was inputed), or the solc-bin checksum doesn't match
+
+
+[06/14/2022 9:31 PM] cryptphi
+so if you assume nothing wrong with the solc file on your machine, then confirm the eth address in the test is valid
+
+
+[06/14/2022 9:31 PM] cryptphi
+sorry can't help much since i didn't run the forge rest at my end....
+
+
+[06/14/2022 9:32 PM] abhinavmir#1898
+haven't used forge much either. Where can I have a look at the eth address?
+
+
+[06/14/2022 9:43 PM] cryptphi
+maybe @layne | MST can help look into this for you
+
+
+[06/14/2022 9:43 PM] abhinavmir#1898
+thanks, that'll be dope!
+
+
+[06/14/2022 10:12 PM] layne7534
+Like deployed testnet addresses? Which networks? We have a few and I can give you some links and a breakdown in a second
+
+
+[06/14/2022 10:40 PM] layne7534
+all deployed contracts are here: https://github.com/connext/nxtp/blob/main/packages/deployments/contracts/deployments.json
+
+{Embed}
+https://github.com/connext/nxtp/blob/main/packages/deployments/contracts/deployments.json
+nxtp/deployments.json at main · connext/nxtp
+Nxtp is a lightweight protocol for generalized crosschain transfers. - nxtp/deployments.json at main · connext/nxtp
+Code4rena - ARCHIVE-Q2-2022 - ☑connext-jun8 [983777461420589107].txt_Files/nxtp-DBCE0
+
+
+[06/15/2022 12:07 AM] abhinavmir#1898
+Thanks Layne – to give context, I was referring to this error `Message:  checksum not available: "0.8.14"` upon running `yarn test:forge` - to which cryptphi suggested it could be because the Ethereum address is wrong. I was wondering what address are they referring to?
+
+
+[06/15/2022 12:08 AM] abhinavmir#1898
+This seems to be a general Forge issue, but couldn't find a reliable answer to this online. Haven't used Foundry much, thus was hoping someone here could help me 🌴
+
+
+[06/15/2022 1:12 AM] pierrickgt
+Are you running the latest version of forge?
+
+
+[06/15/2022 3:18 AM] cloudjunky
+Has anyone been successful getting slither to work on this repo? all I get are python traceback errors.
+
+
+[06/15/2022 3:19 AM] cloudjunky
+Related to ternary support https://github.com/crytic/slither/issues/775
+
+
+[06/15/2022 8:51 AM] abhinavmir#1898
+I uninstalled and reinstalled everything and it seems to work now. But yes, updating `forge` should've been enough. But now I'm running into another error which I guess is due to how `remappings.txt` is written.
+
+```solidity
+ 0: Failed to resolve file: "/Users/.../connext/contracts/lib/forge-std/src/console.sol": No such file or directory (os error 2).
+       Check configured remappings.
+```
+
+
+[06/15/2022 10:50 AM] cloudjunky
+Try `forge install foundry-rs/forge-std --no-commit`
+
+
+[06/15/2022 10:56 AM] 0x4non
+same here... im gettin this error
+```Error: 
+   0: Failed to resolve file: "/home/....../code4rena/2022-06-connext/contracts/lib/ds-test/src/test.sol": No such file or directory (os error 2).
+       Check configured remappings.
+```
+
+
+[06/15/2022 11:03 AM] cloudjunky
+Now```
+forge install dapphub/ds-test --no-commit
+forge install openzeppelin/openzeppelin-contracts-upgradeable --no-commit
+```
+
+
+[06/15/2022 11:03 AM] cloudjunky
+You shouldn't need to touch the remappings.txt file.
+
+
+[06/15/2022 11:07 AM] 0x4non
+that work! however i think i need to touch the remmapings, im getting errors on loading "@openzeppelin" libs
+
+
+[06/15/2022 11:09 AM] cloudjunky
+`forge install openzeppelin/openzeppelin-contracts --no-commit`
+
+
+[06/15/2022 3:58 PM] cryptphi
+sometimes you have to run the command from the right location, confirm which directory/folder you are running the command from
+
+{Reactions}
+C4Keycap 
+
+[06/17/2022 5:41 AM] zer0dot
+Hey there just an FYI, internal library functions are inlined (well, added as internal functions afaik) in the calling contract, so it doesn't actually save code size
+
+
+[06/17/2022 5:41 AM] zer0dot
+external functions are however called via delegatecall
+
+
+[06/18/2022 6:35 PM] decade#8795
+Hi there, 
+need help while debuging connext test on foundry 
+I am getting external imports on running debug 
+
+
+```
+// ============ External Imports ============
+import {Home} from "../../nomad-core/contracts/Home.sol";
+import {XAppConnectionManager} from "../../nomad-core/contracts/XAppConnectionM`[...]', library/core/src/str/mod.rs:107:9
+Aborted (core dumped)
+
+```
+But nomad core is also installed .... 
+Is anybody facing the same issue?
+
+
+[06/19/2022 8:02 PM] C4
+**🚨 CONTEST ALERT**
+
+@🐺wardens The **Connext Amarok** contest is now closed! Huge thanks to everyone who participated 🔍, whether you submitted a finding or not.
+
+What's next: the **Connext** team will review the findings over the next couple of days, and then we'll pass them off to the judge. Keep an eye on #📢announcements for regular updates on how the contest is progressing through awarding 🤑🏆, judging 🧑‍⚖️ and reporting 📜. Feel free to ping a gardener if you have questions along the way!
+
+
+[07/27/2022 1:11 PM] xiaoming90
+May I know the status of this contest? Thanks!
+
+
+[07/27/2022 3:43 PM] 0xleastwood
+I'm just getting through the judging now. I have a lot of free time this week so I should wrap it up quickly
+
+
+[07/27/2022 4:04 PM] xiaoming90
+Noted. Thanks for your response 🙂
+
+
+[08/16/2022 3:05 PM] itsmetechjay
+It's in judging.
+
+
+[08/26/2022 7:16 PM] itsmetechjay
+🤑 🎉 Awards for **Connext Amarok**:
+
+$36,502.71 USDC » @xiaoming90 
+$16,616.38 USDC » @unforgiven 
+$12,411.36 USDC » WatchPug (@JtP | WATCHPUG, @Ming | WATCHPUG)
+$4,690.98 USDC » @csanuragjain 
+$4,292.45 USDC » @0x1f8b 
+$3,918.67 USDC » @Chom 
+$3,165.41 USDC » @hyh 
+$2,909.39 USDC » @Ruhum 
+$2,824.41 USDC » @0xmint 
+$2,739.98 USDC » @cloudjunky 
+$2,736.27 USDC » @shenwilly 
+$2,598.13 USDC » @codexploder 
+$1,639.10 USDC » BowTiedWardens (@BowTiedHeron, @BowTiedPickle, @m4rio.eth, @Dravee, @BowTiedFirefox)
+$1,424.85 USDC » @Czar102 
+$1,311.42 USDC » @0x52 - Away Until 8/9 
+$989.94 USDC » @IllIllI 
+$941.67 USDC » @hansfriese 
+$937.53 USDC » SmartSek (@hake | SmartSek, @Django | Saloon Finance)
+$699.64 USDC » @cccz 
+$571.53 USDC » @slywaters 
+$495.97 USDC » @0xKitsune 
+$484.46 USDC » @0xNineDec 
+$482.61 USDC » @Roman 
+$479.12 USDC » @0xkatana 
+$333.78 USDC » @joestakey 
+$312.30 USDC » @DefSec 
+$312.27 USDC » @MiloTruck 
+$307.64 USDC » @cryptphi 
+$283.81 USDC » 0xf15ers (@remora0, @twojoy)
+$283.81 USDC » @thinklab 
+$261.68 USDC » 0x29A (@anon, @Rotcivegaf)
+$255.69 USDC » @minhquanym 
+$255.69 USDC » GimelSec (@rayn | GimelSec, @sces60107 | GimelSec)
+$242.71 USDC » @simon135 
+$241.45 USDC » @robee 
+$241.00 USDC » @Waze 
+$231.05 USDC » @TomJ 
+$230.98 USDC » @catchup 
+$230.64 USDC » @_Adam 
+$230.61 USDC » @c3phas 
+$227.19 USDC » @ElKu 
+$227.16 USDC » @Kaiziron 
+$226.92 USDC » @0xNazgul 
+$226.76 USDC » @Sloth 
+$226.73 USDC » k
+$226.51 USDC » @fatherOfBlocks 
+$226.51 USDC » @sach1r0 
+$226.35 USDC » @Funen 
+$195.02 USDC » @bardamu 
+$195.02 USDC » @cmichel 
+$163.33 USDC » @JMukesh 
+$151.39 USDC » @sorryNotsorry 
+$145.65 USDC » @++Jujic#5558 
+$145.65 USDC » @kenta 
+$143.53 USDC » @TerrierLover 
+$142.27 USDC » @ch13fd357r0y3r 
+$142.27 USDC » @SooYa 
+$142.27 USDC » @tintin 
+$141.86 USDC » @auditor0517 
+$141.86 USDC » @jayjonah8 
+$141.82 USDC » @obtarian 
+$141.82 USDC » @zzzitron 
+$119.85 USDC » @Metatron 
+$119.85 USDC » @Tomio 
+$99.18 USDC » @UnusualTurtle 
+$85.33 USDC » @apostle0x01 
+$85.33 USDC » @Kaden 
+$85.33 USDC » @rfa 
+$84.65 USDC » @Fitraldys 
+$84.50 USDC » @Ignacio 
+$84.50 USDC » @nahnah 
+$84.50 USDC » @Randyyy 
+
+🏁 Findings summary
+---------------------------
+High risk findings: 8 total, 6 unique
+Med risk findings: 39 total, 20 unique
+Gas optimization reports: 44
+QA reports: 57
+
+Awards will be distributed on Polygon within the next 1-2 weeks. Congratulations all! 💸 💸 💸
+
+{Reactions}
+C4Keycap (12) 🦅 (4) 🔥 (2) 🙏 
+
+[08/26/2022 7:16 PM] road220
+oops
+
+
+[08/26/2022 7:34 PM] bardamu__
+would it be possible to communicate with an admin or the judge to check the status of several submissions of mine? i see only a qa level finding but had submitted several other vulnerabilities, albeit all of them in the same file... looks like maybe it was taken out of scope (or severity was wrong for *all* my submissions..)
+
+{Reactions}
+👀 
+
+[08/26/2022 9:51 PM] alextheentreprenerd
+Cannot comment on the specifics until report is out, but you will be able to check Github for all your submissions and the sponsor and Judge may have left a comment you can learn from
+
+
+[08/26/2022 11:45 PM] 0xleastwood
+feel free to reach out to me
+
+{Reactions}
+🤟 (2) 
+
+[08/26/2022 11:46 PM] 0xleastwood
+I was the judge on this contest
+
+
+==============================================================
+Exported 62 message(s)
+==============================================================
